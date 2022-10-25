@@ -1,0 +1,31 @@
+.user--list {
+    
+    .navbar {
+
+        .title {
+
+            h1 {
+                animation: anim 15s infinite ease;
+            }
+        }
+    }
+    .card {
+        border-radius: $borderRadius;
+        strong {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+
+@keyframes anim {
+    0%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(30%);
+    }
+    100% {
+        transform: translateX(200%);
+    }
+}
